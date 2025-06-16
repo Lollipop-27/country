@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Explore the vibrant coastal city of Busan, South Korea." />
+    <title>Busan | Explore Korea</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Jua&display=swap" rel="stylesheet">
+    <!-- styles -->
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="icon" href="favicon/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+
+    <!-- Skip link for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to content</a>
+
+    <!-- Navigation -->
+    <nav class="nav-wrapper">
+        <img src="images/logo.png" alt="Site Logo" class="logo" />
+        <ul class="nav-menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gangwon.html">Gangwon-do</a></li>
+            <li><a href="busan.html" aria-current="page">Busan</a></li>
+            <li><a href="credits.html">Credits</a></li>
+        </ul>
+    </nav>
+
+    <header>
+        <h1>Busan</h1>
+        <p>Where vibrant beach life meets city culture.</p>
+    </header>
+
+    <main id="main-content">
+        <section class="intro">
+            <h2>Discover Busan</h2>
+            <p>Busan is South Korea’s second-largest city, known for its beaches, seafood markets, and bustling port.
+                Whether you're visiting Haeundae Beach or exploring Jagalchi Fish Market, there's something for
+                everyone.</p>
+        </section>
+
+        <!-- Image Gallery with Modal -->
+        <section class="photo-gallery js-gallery">
+            <h2>Photo Gallery</h2>
+            <div class="gallery-grid busan-gallery">
+                <img src="images/busan/busan_1.jpeg" alt="Busan 1" />
+                <img src="images/busan/busan_2.jpeg" alt="Busan 2" />
+                <img src="images/busan/busan_3.jpeg" alt="Busan 3" />
+                <img src="images/busan/busan_4.jpeg" alt="Busan 4" />
+                <img src="images/busan/busan_5.jpeg" alt="Busan 5" />
+                <img src="images/busan/busan_6.jpeg" alt="Busan 6" />
+            </div>
+        </section>
+    </main>
+
+    <!-- Modal -->
+    <div class="modal" id="img-modal">
+        <span class="modal-close" id="modal-close">&times;</span>
+        <img class="modal-content" id="modal-img" alt="Expanded view" />
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Explore Korea</p>
+    </footer>
+
+    <script src="scripts/gallery.js"></script>
+</body>
+
+</html>
