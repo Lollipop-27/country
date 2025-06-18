@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+  // ====== Modal Functionality ======
   const modal = document.getElementById('img-modal');
   const modalImg = document.getElementById('modal-img');
   const closeBtn = document.getElementById('modal-close');
