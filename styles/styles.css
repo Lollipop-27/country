@@ -252,7 +252,7 @@ main {
 
 /* === Blockquote Section === */
 .quote {
-    border-left: 4px solid var(#ffb400);
+    border-left: 4px solid #ffb400;
     padding-left: 1rem;
     margin: 2rem 0;
     font-style: italic;
@@ -276,7 +276,7 @@ main {
 /* === Gallery Section (CSS Grid) === */
 .photo-gallery {
     padding: 2rem 0;
-    background: var(#f9f9f9);
+    background: #f9f9f9;
 }
 
 .photo-gallery h2 {
@@ -417,7 +417,7 @@ main {
 /* === Table Section === */
 .table-wrapper {
     overflow-x: auto;
-    margin: 2 0;
+    margin: 2rem 0;
     width: 100%;
     max-width: 100%;
     display: block;
